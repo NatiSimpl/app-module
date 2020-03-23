@@ -15,7 +15,7 @@ import { FormComponent } from './form/form.component';
 import { FormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
-import { MatNativeDateModule } from '@angular/material';
+// import { MatNativeDateModule } from '@angular';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { DatePickerComponent } from './date-picker/date-picker.component';
 
@@ -40,6 +40,7 @@ import { DatePickerComponent } from './date-picker/date-picker.component';
     MatSelectModule,
     MatInputModule,
     MatDatepickerModule,
+    // MatNativeDateModule,
 
     FormsModule
   ],
